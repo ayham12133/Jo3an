@@ -5,7 +5,7 @@ if(isset($_SESSION['Username'])){
 echo '';
 }else{
     echo'<script>alert("Error: You Can\'t Browse This Page Directly");
-              window.location.assign("log_in1.php");
+              window.location.assign("index.php");
               </script>';
 }
 
