@@ -1,0 +1,42 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        
+        <title>Log_in</title>
+    </head>
+
+    <body>
+        <div>
+            <form method="POST" class="forms"  action="log_in.php" >
+                <div>
+                    <h1>Log in</h1>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Username" id="username" name="username" class="in" required><br>
+                    <input type="password" name="pass" placeholder="Password" id="password" name="password" class="in" required><br>
+                </div>
+                
+                <div>
+                 <input type="submit" value="log in" name="log" id="subButn" class="in" >
+                </div>
+                
+                <div>
+                    <p id="rme"><b>Remember me</b><input type="checkbox" value="">  </p>
+                </div>
+                
+                <div>
+                    <p id="rLink">you don't have an account? <a href="register.html" target="_self"> regester now!</a></p>
+                </div>
+                
+                
+            </form>
+        </div>
+    </body>
+</html>

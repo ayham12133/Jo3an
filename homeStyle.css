@@ -1,0 +1,92 @@
+body{
+    background-image: url(pexels-valeria-boltneva-1639565.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#navBarContainer{  
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    list-style-type: none;
+    background-color: rgb(26,31,31);
+    opacity: 0.8;
+    box-shadow: 0px 10px 30px ;
+    height: 62px; 
+    width: 100.8%;
+    padding: 0px;
+    margin: -20px;
+}
+
+li{
+    display: inline;
+     
+}  
+ul{  
+    margin-left: 66%;
+}
+
+   
+a{ 
+    text-decoration: none;
+    background-color: rgb(25,31,31);
+    color: white;
+    margin-top: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;    
+    display: inline-block;
+    
+}
+
+
+
+a:hover{
+    background-color: rgb(13,13,13);
+}
+.logo img{
+    margin-left: 30px;
+    float:left;
+    width: 6%;
+         
+} 
+
+.products-container
+.product-header{
+    margin-top: 60px;
+    background-color: rgb(26,31,31);
+    opacity: 0.8;
+    box-shadow: 0px 10px 30px ;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}    
+
+
+.price ,
+.product,
+.quantity,
+.total{
+    color: white
+}
+
+.product{
+    margin-left: 10px;
+    width: 45%;
+}
+
+.price{
+    width: 15%;
+}
+
+.quantity{
+    width: 30%;
+}
+
+.total{
+    width: 10%;
+}

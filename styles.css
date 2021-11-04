@@ -1,0 +1,127 @@
+
+
+body {
+    background-image:url( 274977-wallpaper-sauce-ketchup-fast-food-fries-burger-image.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Garamond;         
+}
+
+h1{
+    color: deepskyblue;
+    position: absolute;
+    text-align: center;
+    margin-left: 120px;
+}
+         
+.forms{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 300px;
+    background: rgba(0,0,0,.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}  
+
+#rForm{
+    height: 340px;
+}
+               
+.in{
+    top :90px;
+    left :50px;
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 25px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: aliceblue;
+}
+
+#password{
+    margin-top: 40px;
+}
+
+#email{
+    margin-top: 40px;
+}
+
+#rPassword{
+    margin-top: 80px;
+}
+
+#cPassword{
+    margin-top: 120px;
+}
+
+#subButn{
+    position: absolute;
+    left: 110px;
+    margin-top: 130px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Garamond;
+}
+#subButn:hover{
+            background: #fff;
+            color: #0077ff;
+        }
+
+#rButn{
+    position: absolute;
+    left: 110px;
+    margin-top: 190px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Garamond;
+}
+#rButn:hover{
+            background: #fff;
+            color: #0077ff;
+        }
+
+#rme{
+    
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    color:aquamarine;
+    cursor: default;
+}
+
+#rLink{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    color: #fff;
+    cursor: default;
+}
+
+a{
+    text-decoration-color: aquamarine;
+    color: #72c9ff;
+}
+
+::placeholder{
+    color:deepskyblue;
+}

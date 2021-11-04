@@ -1,0 +1,187 @@
+body{
+    background-image: url(pexels-valeria-boltneva-1639565.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#navBarContainer{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    list-style-type: none;
+    background-color: rgb(26,31,31);
+    opacity: 0.8;
+    box-shadow: 0px 10px 30px ;
+    height: 62px;
+    width: 100.8%;
+    padding: 0px;
+    margin: -20px;
+} 
+
+li{
+    display: inline;
+}
+ul{  
+    margin-left: 66%;
+} 
+.logo img{
+    margin-left: 30px;
+    float:left;
+    width: 6%;}
+
+a.nB{
+    text-decoration: none;
+    background-color: rgb(25,31,31);
+    margin-top: 10px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.nB:hover{
+    background-color: rgb(13,13,13);
+}
+
+div.gallery {
+    margin: 5px;
+    margin-bottom: -225px;
+    width: 180px;
+    position:relative;
+    top: 20px;
+}
+
+.orderBarButtns:hover {
+  background-color: rgb(13,13,13);
+} 
+
+div.gallery img {
+    margin-top: 20px;
+    width: 290px;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 290px;
+    bottom: 928px;
+    height: 250px;
+    width: 275px;
+    background-color: rgb(26,31,31);
+    opacity: 0.8;
+}
+
+div.desc1{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 290px;
+    bottom:862px;
+    height: 250px;
+    width: 275px;
+    background-color: rgb(26,31,31);
+    opacity: 0.8;
+}      
+
+div.desc2{ 
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 290px;
+    bottom: 796px;
+    height: 250px;
+    width: 275px;
+    background-color: rgb(26,31,31);
+    opacity: 0.8;
+}       
+
+.orderBar{
+    height: 25px;
+    width: 305px;
+    padding-left: 0px;
+    margin: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: -15px;
+    background-color: rgb(26,31,31);
+    color: white;
+    border: none;
+    font-family: serif;
+    font-size: 20px;
+}
+
+textarea{
+    margin-bottom: -6px;
+    width: 20px;
+    height: 16px;
+    background-color: rgb(26,31,31);
+    border-color: rgb(13,13,13);
+    border-bottom-width: 2px;
+    color: aliceblue;
+    resize: none;
+}
+
+textarea:hover{
+    background-color: rgb(13,13,13); 
+} 
+
+.orderBarButtns{
+    background-color: rgb(26,31,31);
+    color: white;
+    border: none;
+    font-family: serif;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.cart ion-icon{
+    
+    font-size: 17px; 
+    padding-right: 5px;
+    
+} 
+    
+.cart a{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 25px;
+}    
+  
+.cart ion-icon:hover{
+    background-color: rgb(13,13,13); 
+}
+.cart a:hover{
+    background-color: rgb(13,13,13); 
+}
+
+.orderBarButtns a{
+    text-decoration: none;
+    color: white; 
+    
+}
+   
+.btn{
+    
+    margin-left: 360px;
+    background-color: orange;
+ 
+}
+
+div.ayham {
+    width:550px;
+    margin-left:
+    
+}
+
+
