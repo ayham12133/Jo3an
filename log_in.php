@@ -14,7 +14,7 @@ if(isset($_POST['log'])){
         header("location:home.php");
     }else{
         echo '<script>alert("Error in username or password");
-              window.location.assign("index.php");
+              window.location.assign("index.html");
               </script>';
     }
    

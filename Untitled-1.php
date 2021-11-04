@@ -16,7 +16,7 @@ if(isset($_POST['btn']))
     if(mysqli_num_rows($query)>0){
         
         echo '<script>alert("email already exists please sign in");
-              window.location.assign("index.php");
+              window.location.assign("index.html");
               </script>';
     }
 
@@ -30,7 +30,7 @@ if(isset($_POST['btn']))
             
             
             
-            echo '<script>alert("Successfully registered");window.location.assign("index.php");
+            echo '<script>alert("Successfully registered");window.location.assign("index.html");
             </script>';
         }
     }else{
